@@ -1,12 +1,7 @@
-<!-- task 9: Write a program to compare two numbers using >= and <= and log the result to the console -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script src="./script.js"></script>
-</body>
-</html>
+// task 9: Write a program to compare two numbers using >= and <= and log the result to the console
+let big=30
+let small=20
+let biggerNum=big>=small
+let smallerNum=big<=small
+console.log(biggerNum); //output true
+console.log(smallerNum); // output false
