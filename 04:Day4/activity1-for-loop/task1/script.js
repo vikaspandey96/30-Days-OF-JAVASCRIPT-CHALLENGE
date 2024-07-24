@@ -1,7 +1,8 @@
 // Task 1: Write a program to print numbers from 1 to 10 using a for loop.
 for(let i=1;i<=10; i++){
     console.log(i);
-}
+} 
+//This output on the browser console
 // output: 1
 //         2
 //         3
@@ -12,3 +13,4 @@ for(let i=1;i<=10; i++){
 //         8
 //         9
 //         10
+
