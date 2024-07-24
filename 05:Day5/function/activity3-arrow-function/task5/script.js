@@ -1,0 +1,6 @@
+// Task 5: Write an arrow function to calculate the sum of two numbers and return the result.
+const concatString=function value(str1,str2){
+    return str1.concat(str2)
+}
+let str=concatString('vikas',' pandey')
+console.log(str);
