@@ -1,14 +1,9 @@
 // Task 9:Create an obejct with computed property names based on variable and log the object to the console. 
-let person={
-    fname:'vikas',
-    lname:'Pandey',
-    age:22,
-    detail(){
-        return `person name is ${this.fname} ${this.lname} and person age ${this.age}`
-    }
+const lastName="lname"
+const fullName={
+    fname:"vikas",
+    [lastName]:'pandey'
 }
-console.log(person);
-console.log(person.detail());
+console.log(`My fullname is ${fullName.fname} ${fullName.lname}`);
 
-// output: {fname: 'vikas', lname: 'Pandey', age: 22, detail: ƒ}
-// person name is vikas Pandey and person age 22
+// output: My fullname is vikas pandey
