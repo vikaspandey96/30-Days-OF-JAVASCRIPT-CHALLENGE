@@ -8,4 +8,4 @@ const promises = new Promise((resolve, reject) => {
 });
 
 //it will output after 2 second
-output: hello, promiss work fine       
+//output: hello, promiss work fine       
