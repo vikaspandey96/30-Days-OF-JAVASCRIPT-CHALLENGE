@@ -9,3 +9,7 @@ console.log( `The first number is ${num1} and the second Number ${num2}. Sum of 
 console.log( `The first number is ${num1} and the second Number ${num2}. multiplay of this number result:${multiply}`);
 console.log( `The first number is ${num1} and the second Number ${num2}. divide  of this number result:${divide}`);
 
+/*output 
+The first number is 33 and the second Number 12. Sum of this number result:45
+The first number is 33 and the second Number 12.multiplay of this number result:396
+The first number is 33 and the second Number 12. divide  of this number result:2.75 */
