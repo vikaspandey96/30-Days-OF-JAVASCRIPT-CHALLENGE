@@ -10,6 +10,6 @@ node1.next=node2
 console.log(node1);
 console.log(node2);
 
-// output:/* 
+/* output: 
 node { value: 22, next: node { value: 10, next: null } }
 node { value: 10, next: null } */
